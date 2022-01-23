@@ -1,0 +1,5 @@
+<template>
+    <div class="alert alert-info">
+        Page not found
+    </div>
+</template>
