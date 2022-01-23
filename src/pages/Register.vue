@@ -167,6 +167,7 @@ export default {
         this.is_loading = false;
         await swal({
           title: message,
+          icon:'success'
         });
         this.$router.push({ name: "home" });
       } catch (error) {

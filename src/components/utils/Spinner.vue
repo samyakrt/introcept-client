@@ -1,5 +1,5 @@
 <template>
-  <div class="spinner-border" :class="{small: 'border-sm'}" role="status">
+  <div class="spinner-border" :class="{small: 'spinner-border-sm'}" role="status">
     <span class="visually-hidden">Loading...</span>
   </div>
 </template>
