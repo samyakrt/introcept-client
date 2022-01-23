@@ -55,7 +55,7 @@ export default {
         data: { records },
       } = await axios.get(`/users`);
       this.records = records;
-    //   this.is_loading = false;
+      this.is_loading = false;
     } catch (error) {}
   },
 };
