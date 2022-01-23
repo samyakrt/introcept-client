@@ -6,7 +6,7 @@
           Add new record
         </RouterLink>
     </div>
-
+    
     <Spinner v-if="is_loading" />
     <Table v-else :records="records" :headers="headers">
       <template v-slot:default="{ record }">
@@ -55,7 +55,7 @@ export default {
         data: { records },
       } = await axios.get(`/users`);
       this.records = records;
-      this.is_loading = false;
+    //   this.is_loading = false;
     } catch (error) {}
   },
 };
