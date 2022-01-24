@@ -1,7 +1,8 @@
-# Vue 3 + Vite
+### running on local machine
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+1. ``` cp .env.example .env```
+2. add following content .env
+``` VITE_API_URL=http://localhost:8000 ```
+3. run npm run dev
 
-## Recommended IDE Setup
-
-- [VSCode](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=johnsoncodehk.volar)
+SERVER_URL=https://gracious-wright-2daa54.netlify.app
